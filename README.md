@@ -10,3 +10,4 @@ The VLSI Design Flow or IC Design Flow refers to the end-to-end process followed
 - But When An IC is made or built, It uses two pillars of electronics domain, 1. ANALOG & 2. DIGITAL. Henceforth, There are 2 IC DESIGN FLOWS or IC DESIGN FLOWS (We will use these 2 terms interchangeably, Readers please don't get confused).
 
 ![vlsi-design-flow](https://github.com/user-attachments/assets/06771d50-4186-4322-bf75-68ad6d244358)
+
