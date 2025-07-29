@@ -32,13 +32,18 @@ ii. Backend or Analog IC Design Flow
   - Longer time to market
   - Dependency on few advanced foundries like TSMC
 
+#### Things to Note - 
+  - Physical Design Complexity Increases ↓ with Node Size: More DRCs, tighter placement, aggressive clock-tree synthesis, and stricter power integrity planning.
+  - Cost ↑ as Node Shrinks: Advanced nodes are expensive and suitable only when high volume or performance is needed.
+  - Use Mature Nodes for Analog: Even today, analog blocks are often implemented in 180nm/130nm due to predictable behavior and lower variability.
+  - EDA Tools Become Critical: Smaller nodes require better support for PPA (Power, Performance, Area) optimization—Synopsys, Cadence, and Siemens tools dominate this domain.
+  - Reliability Engineering: Deep sub-nm designs demand aging analysis, thermal-aware design, and stress modeling.
+
 **Therefore, while companies like Apple aim for technical superiority, brands like BOAT, BOULT, and NOISE aim for market penetration and commercial scalability by keeping their designs modular, customizable, and cost-effective.**
 
 ### CLASSIFICATION OF TECHOLOGY NODES IN VLSI - 
 
 - In VLSI design, technology node refers to the smallest feature size (usually the gate length of a MOSFET) that can be reliably manufactured on silicon. As we progress towards smaller nodes, transistors become faster, more power-efficient, and denser,  allowing more functions on a chip. However, the complexity of design and fabrication increases significantly with each smaller node.
-
-- # 📊 Semiconductor Technology Nodes: A Comprehensive Comparison
 
 | Node Category                      | Description                                                                                                                                                                                                                                                                                           | Examples                                  | Applications                                                                                                                                                                                                                                                                     |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
